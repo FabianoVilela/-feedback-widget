@@ -7,7 +7,7 @@ export function Copyright() {
   return (
     <View>
       <Text style={styles.text}>
-        Feito com ♥ pela Fabiano Vilela
+        Feito com ♥ por Fabiano Vilela
       </Text>
     </View>
   );

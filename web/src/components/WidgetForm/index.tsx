@@ -6,7 +6,6 @@ import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
 import bugImage from '../../assets/images/bug.svg';
 import ideaImage from '../../assets/images/idea.svg';
 import thoughtImage from '../../assets/images/thought.svg';
-import { WidgetFooter } from "./temp/WidgetFooter";
 import { FeedbackSuccessStep } from "./Steps/FeedbackSuccessStep";
 
 export const feedbackTypes = {
@@ -62,7 +61,9 @@ export function WidgetForm() {
           </>
         ) 
       }
-      <WidgetFooter />
+      <footer className="text-xs text-neutral-400">
+        Feito com ♥ por Fabiano Vilela
+      </footer>
     </div>
   );
 }
