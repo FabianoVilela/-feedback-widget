@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 # Keep environment variables out of version control
 .env
+dist
 coverage
 build
 prisma/dev.db
